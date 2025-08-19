@@ -1,0 +1,85 @@
+/* step 2 *WORKING?* */
+body {
+	background-color: #f2efea;
+} 
+
+/* 4a-- hX background and font *WORKING?* */
+hX {
+	background-color: #​d7e1f2; font-weight: bold; color: #1f2123;
+}
+
+/* 4b-- "dish" class formatting *WORKING* */
+.dish {
+	background-color:  rgb(247, 185, 86); padding: 10px; margin: 10px; border-style: dashed; border-color: green; border-width: 2px;
+}
+
+/* 4c-- header and footer formatting *WORKING?* */
+header, footer {
+	background-color:  #bc8e43;
+}
+
+/* 4d-- footer font size *FOOTER SIZE NOT WORKING?* */
+footer {
+	font-size: .5rem;
+}
+
+/* 4e-- navigation bar background color *TEXT COLOR NOT WORKING?* */
+menu {
+	background-color:  #474644; color: white;
+}
+a:link { 
+    color: white;
+}
+/* 4f-- Use a context selector to make all li list items WITHIN the navigation element show with no bullets *HAVE NOT STARTED...NOT WORKING**/
+ 
+ 
+/* 4g-- location list bullets *BULLETS NOT WORKING* */
+#bullet {
+	url(“../images/arrow.gif”)
+}
+
+/* 4h-- "dish" class border *NOT WORKING* */
+.dish {
+	border-radius: 25px;
+}
+
+/* 4i-- hX inside "dish" class formatting *WORKING?* */
+.dish hX {
+	font-style: italic;
+}
+
+/* 4j-- visited link set to green *WORKING?* */
+a:visited {
+    color: green;
+}
+
+/* 4k-- visited link inside navigation bar to orange no underline *WORKING...NO UNDERLING OPTIONAL BUT PREFERRED* */
+h3 a:visited {
+    color: orange;
+	}
+
+/* 4l-- Use a context and class selector to make all the “more details” text inside a “dish” div show up in red text. *WORKING?* */
+.dish h6 {
+	color: red;
+}
+
+/* 4m-- Use a class selector to style all the “this page coming soon” paragraphs with orange italic text. Use class name “underConstruction” *WORKING!* */
+.underConstruction {
+	color: orange; font-style: italic;
+}
+
+/* style table*/
+table, th, td {
+   border: 1px solid black;
+}
+
+
+tbody tr:nth-child(){
+	background-color:orange;
+}
+tbody tr:nth-child(odd){
+	background-color:silver;
+}
+tbody tr:hover{
+	background-color:blue;
+}

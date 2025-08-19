@@ -1,0 +1,89 @@
+<html> 
+	<head> Employees </head>
+	
+	<menu>
+		<h3>
+			<center>
+				<a href="index.html">Home</a> | 
+				<a href="about.html">About Us</a> |
+				<a href="thefamily.html">Employees</a> |
+				<a href="maintenance.html">Maintenance</a> |
+				<a href="products.html">Products</a> |
+				<a href="extras.html">Extras</a> |
+				<a href="locations.html">Locations</a> |
+				<a href="contact.html">Contact Us</a> |
+				<a href="events.html">Events</a> |
+				<a href="order.html">Online Ordering</a> 
+			</center>
+		</h3>
+	</menu>
+	
+	
+	<form action="https://formspree.io/f/xnnzyeye" method="POST">
+	<table border =1>
+		<caption><b>Enter your information to be placed on out employee list</b></caption>
+		
+		<thead>
+		<tr>
+			<th scope="col" width = "5%">Employee ID </th>
+			<th scope="col" width = "10%">Name </th>
+			<th scope="col">Date Hired</th>
+			<th scope="col" width = "15%">Department</th>
+			<th scope="col" width = "15%">Department ID</th>
+			<th scope="col" width = "20%">Location</th>
+			<th scope="col" width = "10%">Supervisor ID</th>
+			<th scope="col" width = "20%">Supervisor</th>
+		</tr>
+		</thead>
+		  <tr>
+			<td align = "center"><select name="Supervisor">
+		  <option value="Tradd">Tradd</option>
+		  <option value="Trevor">Trevor</option>
+		  <option value="Tanner">Tanner</option>
+		  <option value="Pappy">Pappy</option>
+		  <option value="Diane">Diane</option>
+		  <option value="Jim">Jim</option>
+		</select></td>
+			<td><textarea name="Name" rows="1" cols="10"></textarea></td>
+			<td><input type="date" name="DateHired"></td>
+			<td><textarea name="Department" rows="1" cols="15"></textarea></td>
+			<td align = "center"><select name="DepartmentID">
+		  <option value="0">0</option>
+		  <option value="1">1</option>
+		  <option value="2">2</option>
+		  <option value="3">3</option>
+		  <option value="4">4</option>
+		  <option value="5">5</option>
+		  <option value="6">6</option>
+		  <option value="7">7</option>
+		  <option value="8">8</option>
+		  <option value="9">9</option>
+		  <option value="10">10</option>
+		</select></textarea></td>
+			<td><textarea name="loc" rows="1" cols="25"></textarea></td>
+			<td  align = "center"><select name="SupervisorID">
+		  <option value="0">0</option>
+		  <option value="1">1</option>
+		  <option value="2">2</option>
+		  <option value="3">3</option>
+		  <option value="4">4</option>
+		  <option value="5">5</option>
+		  <option value="6">6</option>
+		  <option value="7">7</option>
+		  <option value="8">8</option>
+		  <option value="9">9</option>
+		  <option value="10">10</option>
+		</select></td>
+			<td><textarea name="Supervisor" rows="1" cols="25"></textarea></td>
+		  </tr>
+		  
+</table>
+<td><label>Paste Resume:</label><textarea name="loc" rows="10" cols="175"></textarea></td>
+<table>
+
+</table>
+<center>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </center>
+</html>
